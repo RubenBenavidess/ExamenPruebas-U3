@@ -1,7 +1,7 @@
 function calcWeightedGrade(items){
 
 
-    if(typeof items !== "object"){
+    if(typeof items !== 'object'){
         throw new TypeError('No es un array');
     }
 
@@ -31,4 +31,4 @@ function calcWeightedGrade(items){
 
 }
 
-module.exports = calcWeightedGrade
+module.exports = calcWeightedGrade;
